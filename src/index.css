@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&family=Tilt+Prism&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+	  font-family: Poppins, system-ui, sans-serif;
+	}
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Poppins, sans-serif;
+}
+
+.home {
+	/* background-image: linear-gradient(
+		345deg,
+		hsl(242deg 34% 47%) 0%,
+		hsl(259deg 43% 48%) 3%,
+		hsl(275deg 54% 49%) 7%,
+		hsl(292deg 67% 49%) 13%,
+		hsl(309deg 81% 48%) 19%,
+		hsl(325deg 99% 47%) 27%,
+		hsl(325deg 89% 57%) 37%,
+		hsl(325deg 89% 68%) 48%,
+		hsl(325deg 89% 78%) 63%,
+		hsl(325deg 89% 89%) 81%,
+		hsl(0deg 0% 100%) 100%
+	); */
+}
+
+
+.hero h1{
+	font-family: 'Poppins';
+	font-weight: 900;
+	font-size: 50px;
+}
+
+.hero p{
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.about{
+	background: #6B69B3;
+}
+
