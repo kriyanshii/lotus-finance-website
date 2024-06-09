@@ -45,10 +45,10 @@ function Header() {
 					<img src={logo} alt="Company Logo" className="w-15 h-12 mr-1" />
 				</div>
 				<nav className="flex justify-between items-center space-x-10">
-					<a href="#" className="hover:underline underline-offset-4">
+					<a href="/" className="hover:underline underline-offset-4">
 						Home
 					</a>
-					<a href="#" className="hover:underline underline-offset-4">
+					<a href="/services" className="hover:underline underline-offset-4">
 						Services
 					</a>
 					<div className="cursor-pointer dropdown hover:underline underline-offset-4" onMouseLeave={toggleDropdown}>
@@ -85,10 +85,10 @@ function Header() {
 							</div>
 						</Transition>
 					</div>
-					<a href="#" className="hover:underline underline-offset-4">
+					<a href="/about" className="hover:underline underline-offset-4">
 						About Us
 					</a>
-					<a href="#" className="hover:underline underline-offset-4">
+					<a href="/contacts" className="hover:underline underline-offset-4">
 						Contact
 					</a>
 				</nav>

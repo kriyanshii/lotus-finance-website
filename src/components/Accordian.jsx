@@ -1,7 +1,6 @@
 import React from 'react';
 /**
  * v0 by Vercel.
- * @see https://v0.dev/t/JYBIYDouTD3
  */
 export default function Component() {
   return (
