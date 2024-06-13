@@ -7,8 +7,9 @@ import "../index.css";
 function Contact() {
 	return (
 		<>
+			<div className="contact-us">
 			<Header />
-			<div className="h-screen flex flex-col justify-center items-center bg-gray-50">
+			<div className="contact h-screen flex flex-col justify-center items-center bg-gray-50">
 				<main className="bg-white shadow-lg rounded-lg p-8 md:p-12 w-full max-w-4xl">
 					<h1 className="text-xl md:text-2xl font-semibold">Contact Us</h1>
 
@@ -101,6 +102,7 @@ function Contact() {
 						</div>
 					</section>
 				</main>
+			</div>
 			</div>
 		</>
 	);

@@ -31363,6 +31363,14 @@ body {
   background: #6B69B3;
 }
 
+.contact-us {
+  /* background-color: palevioletred; */
+}
+
+.contact {
+  background-image: url(/mosaic.32fbae6d.png);
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -183052,7 +183060,6 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-
 
 
 /*# sourceMappingURL=/src.f41506f2.css.map */
