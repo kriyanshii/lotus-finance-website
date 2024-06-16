@@ -76,11 +76,11 @@ function Header() {
 							leaveTo="opacity-0">
 							<div className="absolute bg-white border rounded shadow-md">
 								<ul className="py-2">
-									<li className="px-4 py-2 hover:bg-pink-200">Home Loans</li>
-									<li className="px-4 py-2 hover:bg-pink-200">Project Loans</li>
-									<li className="px-4 py-2 hover:bg-pink-200">
+									<a  href="/homeloan" className="hover:underline underline-offset-4"><li className="px-4 py-2 hover:bg-pink-200">Home Loans</li></a>
+									<a><li className="px-4 py-2 hover:bg-pink-200">Project Loans</li></a>
+									<a><li className="px-4 py-2 hover:bg-pink-200">
 										Mortgage Loans
-									</li>
+									</li></a>
 								</ul>
 							</div>
 						</Transition>
