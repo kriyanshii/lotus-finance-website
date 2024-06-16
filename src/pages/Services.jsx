@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Button from "../components/Button";
+import mosaic from "../assets/landscape.webp"
 import "../index.css";
 
 
@@ -21,7 +20,7 @@ function Services() {
 						</div>
 						<div className="border-t border-black pt-6">
 							<p className="text-xs uppercase tracking-widest mb-1">
-								(What I do)
+								(What we do)
 							</p>
 							<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 								<div>
@@ -61,7 +60,7 @@ function Services() {
 							alt="Designer"
 							className="h-[400px] w-[300px] object-cover rounded-lg"
 							height="400"
-							src="/placeholder.svg"
+							src={mosaic}
 							style={{
 								aspectRatio: "300/400",
 								objectFit: "cover",
